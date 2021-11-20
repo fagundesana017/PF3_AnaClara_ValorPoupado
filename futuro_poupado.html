@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="futu.css">
+    <script src="https://kit.fontawesome.com/8814a087cc.js" crossorigin="anonymous"></script>
+
+    <title>Futuro Poupado</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <p class="logo">Futuro Poupado</p>
+          <ul class="nav-list">
+              <li><a href="index.html"><i class="fas fa-sign-out-alt"></i></a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="section">
+  
+          <div class="title">Insira seus dados</div>
+
+          <div class="input">
+            <input placeholder="Nome" type="text" id='nome' required="required">
+       </div>
+
+          <div class="input">
+               <input placeholder="Valor Aplicada mensalmente" type="number" id='valor_mensal' required="required">
+          </div>
+  
+          <div class="input">
+            <input placeholder="Taxa de Juros" type="number" id='taxa_juros' required="required" >
+        </div>
+  
+          <div class="input">
+              <input  placeholder="Número de parcelas mensais"  type="number" id='parcelas'required="required">
+          </div>
+
+
+          <button id='calcular' onclick="calcular()">Calcular</button>
+  
+          <div class="result" id='resultado'></div>
+  
+        </div>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Courgette&family=Kumbh+Sans:wght@400;500&family=Saira+Condensed:wght@200&family=Sintony&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+
+    opacity: 0.6;
+}
+.logo{
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 2%;
+}
+header{
+    min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004643;    
+    font-family: 'Poppins', sans-serif;
+    height: 8vh;    
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 1px;
+    margin-right: 32px;
+    
+}
+i{
+    color: white;
+}
+.imgbaner{
+    width: 100%;
+    height: 560px;
+    box-shadow: 2px black;
+    margin-top: 2%;
+}
+h1{
+    color: #004643;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+}
+.p{
+    margin-top: 3%;
+}
+.div{
+       
+        margin: 8%;
+        text-align: justify;
+}
+.poupado{
+    border-radius: 7px;
+    margin-left: 30%;
+    margin-top: 3%;
+    box-shadow: 5px 3px 5px rgb(197, 191, 191);
+}
+.p2{
+     margin-top: 4%;
+     }
+footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 211, 211);
+    padding: 8px;
+    height: 20vh;
+}    
+.imgfooter{
+    margin-top: 2%;
+    margin-left: 2%;
+     width: 160px;
+} 
+.icone1{
+    padding: 15px;
+    border-radius: 7px;
+     background-color: #004643;
+     margin: 0.5%;
+}
+.icone1:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+.icone2{
+    padding: 15px;
+    border-radius: 7px;
+     background-color: #004643;
+     margin: 3%;
+}
+.icone2:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+.icone3{
+    padding: 15px;
+    border-radius: 7px;
+     background-color: #004643;
+}
+.icone3:hover{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+.redes{
+      margin-top: -4%;
+      margin-left: 46%;    
+}
