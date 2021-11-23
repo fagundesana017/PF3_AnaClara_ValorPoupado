@@ -20,4 +20,4 @@ function poupado () {
       resultado.textContent = 'Para calcular o valor poupado, insira seus dados'
     }
 }
-calcular.addEventListener('click', pace);
+calcular.addEventListener('click', poupado);
